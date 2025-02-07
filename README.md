@@ -1,8 +1,8 @@
 ### ABOUT ME
 
-**Name**: `Ryuko Developer`  
-**Age**: `18`  
-**Contact**: [Facebook](https://www.facebook.com/ryukodev)  
+**Name**: `Mot Oyamat`  
+**Age**: `N/A`  
+**Contact**: [Facebook](https://www.facebook.com/Mot.Mot.Oyamat)  
 
 ---
 
@@ -46,7 +46,7 @@ To set up the project, follow these steps:
 module.exports.config = {
   name: "example",
   version: "1.0.0",
-  credits: "Ryuko Developer",
+  credits: "Mot Oyamat",
   permission: 0,
   description: "An example command",
   category: "Example",
@@ -102,7 +102,7 @@ module.exports.config = {
   name: "example", // Command name
   version: "1.0.0", // Command version
   permission: 0, // Permission level (0: all, 1: group admins, 2: bot admins, 3: bot operators)
-  credits: "Ryuko Developer", // Creator of the code
+  credits: "Mot Oyamat", // Creator of the code
   description: "An example command", // Command description
   prefix: false, // Use prefix (true/false)
   premium: false, // Enable premium feature (true/false)
