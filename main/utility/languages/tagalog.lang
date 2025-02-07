@@ -1,0 +1,114 @@
+# main.js
+main.commands=matagumpay na naload ang utos %1
+main.events=matagumpay na naload ang kaganapan %1
+main.cmderr=hindi maload ang utos %1, error: %2.
+main.evnterr=hindi maload ang kaganapan %1, error: %2.
+main.configload=loading %1, file.
+main.configerr=hindi maload ang %1 file, error: %1.
+main.accountload=loading %1 data.
+main.loadedacc=naload ang %1 data.
+main.accounterr=hindi maload ang %1, error: %2.
+main.emailNotfound=pakilagay ang iyong email sa %1 file.
+main.startloadCmd=\nLOADING COMMANDS
+main.startloadEvnt=LOADING EVENTS
+main.cmdNameErr=ang pangalan ng %1 ay walang laman o mali ang format
+main.cmdCategoryErr=ang kategorya ng %1 ay walang laman o mali ang format
+main.premiumCmdErr=ang premium na katangian ng %1 ay walang laman o mali ang format
+main.prefixCmdErr=ang prefix na katangian ng %1 ay walang laman o mali ang format
+main.commandNameExist=ang utos na %1 ay na-load na
+main.failedEvnt=mali ang format ng kaganapan %1
+main.evNameExist=ang kaganapan na %1 ay na-load na
+
+main.successLogin=nakalogin sa %1 file
+main.loadingLogin=LOADING LOGIN SYSTEM
+main.appstateEmpty=ang appstate file "%1" ay walang laman, tinatanggal ito
+main.loggingIn=malilogin sa %1 file
+main.loginErr=error sa pagproseso ng appstate %1, error %2
+main.loginErrencounter=nakatagpo ng error sa session ng login, pakicheck ang iyong console.
+main.loadingDatabase=LOADING DATABASE SYSTEM
+main.databaseLoaded=naload ang %1 system
+main.data1=ang bot na ito ay ginawa ni ryuko, huwag baguhin ang kredito.
+main.cantDeployData=hindi ma-deploy ang %1 system, error %1
+main.updateSystem=\nLOADING UPDATE SYSTEM
+main.checkUpdate=sinusuri ang available na %1
+main.errorUpdate=hindi maload ang %1, error : %2
+main.loadingUpdate=%1 natagpuan, ina-update sa pinakabagong bersyon
+main.loadedUpdate=naload ang %1 ng matagumpay
+main.noFoundUpdates=nagagamit ka ng pinakabagong file
+main.errUpdateCheck=hindi masuri ang updates, error : %1
+main.data2=nakatagpo ng error? pakicontact ako sa facebook : www.facebook.com/profile/ryukodev
+main.data3=nag-enjoy sa multiple appstate gamit ang ryuko v5
+    
+
+# includes/listen.js
+
+listen.startLoadEnvironment=nag-proceed sa pag-load ng environment variable.
+listen.loadedEnvironmentThread=naload ang thread environment variable ng matagumpay 
+listen.loadedEnvironmentUser=naload ang user environment variable ng matagumpay 
+listen.successLoadEnvironment=naload ang environment variable ng matagumpay 
+listen.failLoadEnvironment=hindi maload ang environment variable, error : %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=kailangan ng array o object o maaaring pareho.
+currencies.needObject=kailangan ng object.
+currencies.needNumber=kailangan ng numero.
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=kailangan ng Array o Object o maaaring pareho
+threads.needObject=kailangan ng Object 
+
+# includes/controller/users.js
+
+users.needObjectOrArray=kailangan ng Array o Object o maaaring pareho
+users.needObject=kailangan ng Object
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=hindi ka makakagamit ng bot.
+handleCommand.threadBanned=hindi makakagamit ang iyong thread ng bot.
+handleCommand.commandNotExist=hindi umiiral ang utos na ginamit mo sa aming sistema, subukan ang "%1".
+handleCommand.commandThreadBanned=hindi makakagamit ang iyong thread ng utos "%1".
+handleCommand.commandUserBanned=hindi ka makakagamit ng utos "%1".
+handleCommand.threadNotAllowNSFW=hindi pinapayagan ang iyong thread na gumamit ng NSFW na mga utos.
+handleCommand.cantGetInfoThread=hindi makuha ang impormasyon ng iyong thread, error: %1
+handleCommand.permissionNotEnough=wala kang sapat na permiso upang gumamit ng utos "%1"
+handleCommand.cantSetMessageReaction=may hindi inaasahang error sa pag-setMessageReaction, error: %1
+handleCommand.executeCommand=\ntime at date : %1\nginamit na utos : %2\nuser id : %3\ngroup id : %4\nkasamang args : %5\nprocessing time : %6ms
+handleCommand.commandError=may hindi inaasahang error sa paggamit ng utos %1, error: %2.
+handleCommand.notMatched=hindi kailangan ng prefix ang utos na ito.
+handleCommand.noPrefix=wala itong command config "usePrefix" na katangian
+handleCommand.commandNotFound=hindi umiiral ang utos na ginamit mo.
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=May hindi inaasahang error sa paggamit ng utos %1, error: %2.
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=\nryuko - bagong grupo na natagpuan %1.
+handleCreateDatabase.newUser=\nryuko - bagong user na natagpuan %1.
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=\ntime at date : %1\nna-execute na kaganapan : %2\ngroup id : %3\nprocessing time : %4ms
+handleEvent.eventError=may error sa pag-execute ng kaganapan %1, error: %2.
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=kulang ang value upang sagutin ang iyong problema.
+handleReaction.executeError=May error sa pagsagot sa iyong problema, error: %1.
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=kulang ang value upang sagutin ang iyong problema.
+handleReply.executeError=may error sa pagsagot sa iyong problema, error: %1.
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=may error sa schedule sa module %1, error : %2.
+
+# utils/index.js
+
+utils.throwError=sintaks error, pakigamit ang %1help %2 para sa karagdagang detalye sa paggamit.
