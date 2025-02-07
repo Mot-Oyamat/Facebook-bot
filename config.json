@@ -1,5 +1,5 @@
 {
-  "author": "ryuko",
+  "author": "Mot Oyamat",
   "language": "english",
   "allowinbox": false,
   "adminonly": false,
@@ -9,7 +9,7 @@
   "autopost": true,
   "email": "sanjivfresh@gmail.com",
   "operators": [
-    "100091459940475"
+    ""
   ],
   "autorestart": {
     "status": true,
@@ -32,10 +32,10 @@
     "listenTyping": false,
     "updatePresence": false,
     "forceLogin": false,
-    "autoMarkDelivery": false,
-    "autoMarkRead": false,
+    "autoMarkDelivery": true,
+    "autoMarkRead": true,
     "autoReconnect": true,
-    "online": false,
+    "online": true,
     "emitReady": false,
     "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
   },
